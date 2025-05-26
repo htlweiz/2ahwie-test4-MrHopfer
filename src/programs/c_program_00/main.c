@@ -25,7 +25,16 @@ int main(int argc, char **argv) {
 
     return 0;
 
-//Nummer 2
+//aufgabe 2
+ int array[5] = {3, 1, 7, 4, 9, 1, 5, 10, -2, 2};
+for (int i = 0; i < 10; i++) {
+        
+
+
+
+    }
+
+    return 0;
 
 
 
@@ -34,6 +43,18 @@ int main(int argc, char **argv) {
 
 
 
+//Aufgabe 3
+int x = 0;
+int y = 0;
+int s = 0;
+
+int array2[5]= {1, 2, 3, 4, 5,};
+for (int i = 0; i < 5; i++){
+
+
+
+  
+}
 
 
 
