@@ -25,35 +25,50 @@ int main(int argc, char **argv) {
 
     return 0;
 
-//aufgabe 2
- int array[5] = {3, 1, 7, 4, 9, 1, 5, 10, -2, 2};
-for (int i = 0; i < 10; i++) {
-        
 
 
+ 
+  
+    
+    // Aufgabe 2
+    int arry[10] = {3, 1, 7, 4, 9, 1, 5, 10, -2, 2};
+    int len = sizeof(arry) / sizeof(arry[0]);
 
-    }
-
-    return 0;
-
-
-
-
-
+     for (int i = 0; i < len; i++) {
+        printf("Zahl %d: %d\n", i + 1, arry[i]);
+  
 
 
 
 //Aufgabe 3
-int x = 0;
-int y = 0;
-int s = 0;
 
-int array2[5]= {1, 2, 3, 4, 5,};
-for (int i = 0; i < 5; i++){
+#include <stdio.h>
 
+int main() {
+    int int_numbers[5];
+    int gerade = 0, ungerade = 0, summe = 0;
 
+    
+    for (int i = 0; i < 5; i++) {
+        printf("Geben Sie Zahl %d ein: ", i + 1);
+        scanf("%d", &int_numbers[i]);
+    }
 
-  
+    
+    for (int i = 0; i < 5; i++) {
+        summe += int_numbers[i];
+        if (int_numbers[i] % 2 == 0) {
+            gerade++;
+        } else {
+            ungerade++;
+        }
+    }
+
+    printf("Anzahl der geraden Zahlen: %d\n", gerade);
+    printf("Anzahl der ungeraden Zahlen: %d\n", ungerade);
+    printf("Summe aller Zahlen: %d\n", summe);
+
+    return 0;
 }
 
 
@@ -61,5 +76,9 @@ for (int i = 0; i < 5; i++){
 
 
 
+
+
+
+reurn 0;
 
 }
