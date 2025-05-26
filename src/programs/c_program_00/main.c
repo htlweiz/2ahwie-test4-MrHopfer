@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//1 Nummer
+//Aufgabe 1
 
 int int_even_odd(int num) {
     if (num == 0) {
@@ -31,20 +31,16 @@ int main(int argc, char **argv) {
   
     
     // Aufgabe 2
-    int arry[10] = {3, 1, 7, 4, 9, 1, 5, 10, -2, 2};
-    int len = sizeof(arry) / sizeof(arry[0]);
+    int array[10] = {3, 1, 7, 4, 9, 1, 5, 10, -2, 2};
+    int len = sizeof(array) / sizeof(array[0]);
 
      for (int i = 0; i < len; i++) {
-        printf("Zahl %d: %d\n", i + 1, arry[i]);
-  
-
+        printf("Zahl %d: %d\n", i + 1, array[i]);
+    }
 
 
 //Aufgabe 3
 
-#include <stdio.h>
-
-int main() {
     int int_numbers[5];
     int gerade = 0, ungerade = 0, summe = 0;
 
